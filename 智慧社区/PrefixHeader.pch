@@ -1,0 +1,25 @@
+//
+//  PrefixHeader.pch
+//  智慧社区
+//
+//  Created by 汉泰mac pro on 15/7/27.
+//  Copyright (c) 2015年 汉泰mac pro. All rights reserved.
+//
+
+#ifndef _____PrefixHeader_pch
+#define _____PrefixHeader_pch
+
+#define TabBarTitleColor [UIColor colorWithRed:10.f/255 green:121.f/255 blue:37.f/255 alpha:1]
+
+#define TabBarBackgroundColor [UIColor whiteColor]
+
+#define ScreenWidth [UIScreen mainScreen].bounds.size.width
+
+#define ScreenHeight [UIScreen mainScreen].bounds.size.height
+
+#define iPhone4s ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(320, 480), [[UIScreen mainScreen] currentMode].size) : NO)
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif
